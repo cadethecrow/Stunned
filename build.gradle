@@ -4,11 +4,11 @@ plugins {
     id'com.github.johnrengelman.shadow' version '4.0.4'
 }
 
-mainClassName = 'me.raimuakuna.jda-bot.Bot'
+mainClassName = 'me.raimuakuna.jdabot.Bot'
 
 version '1.0'
 
-sourceCompatibility = JavaVersion.VERSION_15
+sourceCompatibility = JavaVersion.VERSION_11
 
 repositories {
     jcenter()
